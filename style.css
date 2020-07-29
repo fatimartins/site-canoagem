@@ -1,0 +1,102 @@
+
+html * {
+  box-sizing: border-box;
+}
+
+#titulo {
+  padding: 48px 32px;
+  color: #fff;
+  background-color: #424242;
+  background-image: url("primeira.jpg");
+
+  background-size: cover;
+  background-position: center;
+  text-shadow: 4px 4px 6px #000;
+  font-weight: 400;
+  font-size: 42px;
+  border-radius: 8px;
+  border-top: 4px solid blue;
+  border-bottom: 4px solid blue;
+}
+main.canoa {
+margin: auto;
+width: 50vw;
+
+}
+
+body {
+  font-family: sans-serif;
+  background-color: #E1F5FE;
+}
+
+h2 {
+  color: blue;
+  font-size: 28px;
+  line-height: 22px;
+  font-family: sans-serif;
+}
+    img {
+      max-width: 100%;
+      border-radius: 8px;
+      align-items: : center;
+}
+.link {
+  display:inline-block;
+  background-color: blue;
+  color:#fff;
+  padding:20px 38px;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: all 0.5s;
+
+}
+.link:hover {
+  box-shadow: 2px 2px 4px #000;
+  background-color: #1E90FF;
+  text-decoration: underline;
+}
+.mar {
+  height: 130px;
+  border-radius: 8px;
+margin-top: 64px;
+  background-color: rgba(0,43,0,0.5);
+
+
+
+}
+small {
+  font-size: 22px;
+  color: black;
+
+}
+.azul {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+nav {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+nav > a {
+  border-bottom: 2px solid #ccc;
+  color: #424242;
+  font-size: 22px;
+  padding: 22px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.5s;
+}
+nav > a:hover {
+  background-color: blue;
+  border-bottom: 4px solid yellow;
+}
+video {
+  max-width: 100%;
+
+  align-items: : center;
+}
+span {
+  background-color: white;
+}
